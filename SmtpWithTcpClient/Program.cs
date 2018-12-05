@@ -82,7 +82,8 @@ namespace SmtpWithTcpClient
         {
             SendMail("smtp.sendgrid.net", 2525,
                 "apikey",
-                "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",
+                 // Note! This password is not valid - you must replace it with your own!
+                "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", 
                 "fredrik.haglund@nackademin.se",
                 "fredrik.haglund@nackademin.se",
                 "Hello World "+DateTime.Now.ToString("HH:mm:ss"),
